@@ -1,0 +1,495 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 10%;
+    margin-right: 15%;
+    margin-top: 5%;
+    
+    
+}
+/* Header Start */
+header{
+    
+    background-color: blue;
+    padding-top: 5%;
+    padding-bottom: 8%;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 100%;
+    height: 80%;
+    
+   
+   
+    
+}
+
+.half-width{
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 30px;
+   
+   
+   
+   
+}
+.half-width img{
+    width: 70%;
+    height: 70%;
+    position: relative;
+   left: 110px;
+   top: 10px;
+    
+   
+    
+    
+    
+}
+/* Transition Start */
+
+.images{
+    transition: width 10s ease 1s height 5s   ;
+}
+.images:hover{
+    width: 80%;
+    height: 80%;
+    
+    
+}
+
+/* Transition End */
+.text{
+        width: 300px;
+
+   
+        font-size: 40px;
+        margin-left: 15%;
+        
+        color: white;
+       
+        
+        
+       
+        
+    
+}
+/* Watch Live Button */
+.WL{
+    padding-left: 50px;
+}
+/* Watch Live Button */
+
+/* link button style */
+
+.link-button1{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+   
+    
+    
+   
+}
+
+.link-button2{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    
+   
+}
+/* link button style */
+
+
+nav{
+        float: right;
+        padding-right: 15%;
+}
+/* login button transitio */
+#i1{
+    transition: width 10s height 5s;
+
+}
+#i1:hover{
+    width: 150px;
+    height: 150px;
+}
+/* login button transition */
+
+
+
+/* Header End */
+
+/* Main Start */
+main{
+    margin-top: 10%;
+    position: relative;
+    left: 10px;
+    right: 30%
+    
+    
+}
+
+
+.a{
+    float: left;
+}
+
+
+
+
+.text1{
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+
+/* Player Image-Grid Start */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 10%;
+    padding-right: 10%;
+    grid-gap: 20px;
+    
+    
+}
+
+    
+  
+
+.grid-cell img{
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+
+.photo{
+    width: 200px;
+    height: 200px;
+    padding: 10%;
+}
+
+
+
+
+.grid-cell{
+    border: 2px solid white;
+    box-shadow: 5px 5px 5px 5px gray;
+   
+   
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+/* Player Image-Grid End */
+
+/* Main-Extra Part Start */
+.extra{
+    padding-top: 10%;
+}
+.extra1{
+    padding-top: 3%;
+}
+.text2{
+    width: 250px;
+}
+
+.demo{
+    padding-left: 10%;
+}
+
+.demo2{
+    padding-top: 10%;
+}
+
+.link-button3{
+    text-decoration: none;
+    background-color: tomato;
+    color: white;
+    padding-left: 3px;
+    padding-right: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    
+    
+   
+    
+    
+   
+}
+.text3{
+    color: blueviolet;
+    
+}
+/* Main-Extra Part End */
+/* Main End */
+
+/* Footer Start*/
+.footer-img{
+    width: 50%;
+    height: 20%;
+    align-items: center;
+    margin-left: 20%;
+    padding-top: 10%;
+}
+
+.icon{
+    position: relative;
+    left: 400px;
+    width: 5%;
+    
+}
+
+
+
+.copyright{
+    text-align: center;
+    
+}
+/* Footer End */
+
+
+/* Media Responsive Start */
+@media  (max-width: 411px) {
+   
+
+    body{
+        font-family: 'Poppins', sans-serif;
+         padding-left: 10px;
+       
+        margin-left: 10%;
+        margin-right: 25%; 
+        
+       
+        
+        
+    }
+    /* Header responsive start */
+    header{
+    
+        background-color: blue;
+        padding-top: 5%;
+        padding-bottom: 8%;
+        padding-right: 50px;
+        
+        width: 100%; 
+        height: 100%;
+       
+        
+       
+       
+        
+    }
+    .text{
+        width: 10px;
+        
+    }
+
+    .half-width{
+    
+        width: 100%;
+        
+        
+        flex-direction: column;
+        
+        
+        top: 30px;
+        padding-left: 1%;
+        padding-right: 30%;
+       
+       
+       
+       
+    }
+    .half-width img{
+        width: 70%;
+        height: 70%;
+        left: 2%;
+        right: 50%;
+        flex-direction: column;
+        padding-bottom: 10%;
+       
+       
+        
+       
+        
+        
+        
+    }
+    nav{
+        position: relative;
+        left: 50px;
+    }
+      /*  Header Responsive End */
+
+      /* Main part Start */
+
+      main{
+        margin-top: 10%;
+        
+        margin-left: 10px;
+       margin-right: 30%
+        
+        
+    }
+
+      /* Players grid responsive */
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+       
+        grid-gap: 20px;
+
+        padding-top: 5%;
+       
+        margin-left: 2%;
+       margin-right: 50%;
+    
+        
+    }
+
+    .grid-cell img{
+        width: 200px;
+        height: 200px;
+        padding-right: 30%;
+       padding-left: 5%;
+        
+    }
+    
+    
+    
+    .photo{
+        width: 200px;
+        height: 200px;
+       
+        padding-right: 30%;
+       padding-left: 5%;
+    }
+    
+    
+    
+    
+    .grid-cell{
+        border: 2px solid red;
+        box-shadow: 5px 5px 5px gray;
+       
+       
+        margin-right: 100px;
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+    }
+
+    /* Playesr-grid responsive End */
+
+    /* Main Extra Part responsive Start */
+    .extra{
+        padding-right: 80%;
+        padding-top: 20%;
+        padding-left: 30%;
+    }
+    .extra img{
+        width: 250px;
+    }
+    .extra a{
+        margin-left: 15%;
+        padding-left: 10px;
+    }
+
+    .extra{
+        padding-top: 20%;
+
+    }
+    .text2{
+        width: 250px;
+    }
+    
+    .demo{
+        padding-left: 10%;
+    }
+.demo1{
+        margin-bottom: 40%;
+}
+
+    .demo2{
+        margin-top: 20%;
+    }
+    .demo2 h1{
+        margin-left: 80px ;
+    }
+
+    .demo2 img{
+        width: 200px;
+        height: 200px;
+        margin-left: 70px;
+    }
+
+    iframe{
+        width:200px;
+        height: 200px;
+        
+    }
+    /* Main Extra Part responsive Start */
+
+    /* header image transition */
+
+    
+
+    
+    /* Footer part responsive Start */
+    .footer-img{
+        width: 50%;
+        height: 20%;
+        align-items: center;
+        margin-left: 40%;
+        padding-top: 10%;
+    }
+    
+    .icon{
+        width: 20%;
+        position: relative;
+        top:20px;
+        left: 65px;
+        
+    }
+    
+    
+    
+    .copyright{
+        width: 100%;
+       text-align: center;
+        margin-left: 20%;
+        
+    }
+
+    /* Footer part responsive End */
+
+    
+}
+
+/* Media Responsive End */
+   
+   
+    
+   
